@@ -1,7 +1,7 @@
 function showStars(nbStars) {
 
     let char = "*";
-    let i = 0;
+
     for (let i = 0; i < nbStars; i++) {
         console.log(char);
         char += "*";
@@ -9,4 +9,4 @@ function showStars(nbStars) {
 
 }
 
-console.log(showStars(3))
+console.log(showStars(4))

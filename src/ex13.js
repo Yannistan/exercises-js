@@ -1,16 +1,12 @@
 function printNumbers(number) {
     if (number == 0) {
-
-        console.log(number);
-
+        console.log(number)
     }
     if (number < 1000) {
-        number += 1;
-        console.log(number);
+        number += 1
 
-        printNumbers(number);
+        if (number <= 1000) console.log(number)
+        if (number < 1000) printNumbers(number)
     }
-
 }
-
 console.log(printNumbers(0))
